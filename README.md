@@ -1,4 +1,4 @@
-# Face_Emotion_Recognition_AITHON2020
+# Face Emotion Recognition AITHON2020
 
 #### Team : The Elite
 
@@ -13,7 +13,14 @@ Building A Mood Classifier Based On Facial Expressions - With AI and Computer Vi
 The objective of this study is to classify mood of the person from facial expressions Images are categorized in three classes namely sadness, fear and happiness based on the emotion shown in the facial expressions .
 
 #### Dataset:
-The data consists of 48x48 pixel grayscale images of faces. The pixel values are stored in 2304 (48*48) columns. These column names start with pixel. Along with pixel values, there is emotion column that say about mood of the image
+The data consists of 48x48 pixel grayscale images of faces. The pixel values are stored in 2304 (48*48) columns. These column names start with pixel. Along with pixel values, there is emotion column that say about mood of the image.
+
+![imbalance](assets/images/imbalance.png "imbalance")
+
+#### Sample images from dataset:
+
+![Samples](assets/images/sample.png "Sample images")
+
 
 #### Model:
 <pre>
@@ -69,5 +76,7 @@ Trainable params: 568,419
 Non-trainable params: 896</pre>
 
 #### Results:
-Training accuracy : 71%
+Training accuracy : 71%\
 Testing accuracy  : 75%
+
+![Results](assets/images/results.png "Results")
