@@ -80,3 +80,11 @@ Training accuracy : 71%\
 Testing accuracy  : 75%
 
 ![Results](assets/images/results.png "Results")
+
+
+#### Where model is going wrong:
+
+![wrong](assets/images/misclassified.png "Misclassified images")
+
+#### Test confusion matrix:
+![cfm](assets/images/cfm.png "Confusion matrix")
